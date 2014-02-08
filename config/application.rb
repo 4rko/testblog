@@ -79,5 +79,8 @@ module Easyblog
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    # Laduje ustawienia MongoDB
+    # Mongoid.load!("config/mongoid.yml")
   end
 end
